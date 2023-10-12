@@ -56,7 +56,7 @@ raw_fname = args.raw
 outdir = Path("figures")
 # if it doesn't exist, create output directory:
 if not outdir.exists():
-    outdir.mkdir()        
+    outdir.mkdir()
 
 # read the raw data
 raw = mne.io.read_raw_fif(raw_fname)
